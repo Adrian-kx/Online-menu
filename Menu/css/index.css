@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2? family=Pacifico&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-image: url("../img/back3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Lobster', cursive;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.font2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.logoText {
+    font-size: 45px;
+    color: #ffffff;
+    margin: auto 10px;
+}
+
+.logoImg {
+    width: 70px;
+    height: 70px;
+}
+
+.bemVindo {
+    margin: 70px auto;
+    background-color: rgba(255, 255, 255, 0.309);
+    padding: 10px;
+    width: 400px;
+}
+
+hr {
+    color: rgb(235, 18, 18);
+    font-size: 20px;
+}
+
+.titleProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.table {
+    font-family: 'Pacifico', cursive;
+    width: 500px;
+    margin: auto;
+}
+
+.title {
+    margin: 40px;
+    font-size: 35px;
+}
+
+.decoration {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 321px;
+    height: 200px;
+    background-image: url("../img/titeDec.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.textDecoration {
+    font-size: 40px;
+    color: black;
+}
+.guia{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.144);
+    justify-content: center;
+    padding: 10px;
+    width: 700px;
+    margin: 20px auto;
+    margin-top: 0;
+}
+.linkGuia{
+    margin: auto 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.linkGuia:hover{
+    color: rgba(255, 255, 255, 0.748);
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
